@@ -1,6 +1,6 @@
 package main
 import "testing"
-func test(*testing.T){
+func test(t *testing.T){
 
 	result := sum(2,3)
 
