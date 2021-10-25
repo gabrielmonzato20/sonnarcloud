@@ -1,10 +1,13 @@
 package main
+
 import "testing"
-func test(t *testing.T){
 
-	result := sum(2,3)
+func TestSum(t *testing.T) {
 
-  if result != 5 {
-		t.Error("The result most be 5 ")
+	result := sum(2, 3)
+
+	if result != 5 {
+		t.Error("The result must be 5")
 	}
+
 }
